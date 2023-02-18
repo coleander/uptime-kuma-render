@@ -4,6 +4,7 @@ services:
     name: uptime-kuma
     env: docker
     region: frankfurt # optional (defaults to oregon)
+    dockerfilePath: ./docker/Dockerfile
     plan: starter # optional (defaults to starter)
     branch: master # optional (defaults to master)
     numInstances: 1 # optional (defaults to 1)
